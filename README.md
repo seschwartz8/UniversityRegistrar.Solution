@@ -25,6 +25,7 @@
   - Implemented authentication
   - Spent a few hours attempting authorization, but commented out work (could not get functioning)
   - Fix bug that prevent user from registering successfully
+  - Leet code problems, research into transitioning this project into React
 </details>
 
 <details>
