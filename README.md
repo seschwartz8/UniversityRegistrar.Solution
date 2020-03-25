@@ -41,7 +41,7 @@
 
 ## Description
 
-C#/.NET MVC website that allows students and administrators to keep records on courses and student enrollment. This application allows you to create students and courses, and adjust student enrollment in each course. The website will prompt you to register an account and log in to view students and courses. This project focuses on using .NET Core MVC, Authentication, Authorization, SQL databases/Migration, and one-to-many/many-to-many design for databases.
+C#/.NET MVC website that allows students and administrators to keep records on courses and student enrollment. This application allows you to create students and courses, and adjust student enrollment in each course. The website will prompt you to register an account and log in to view students and courses. This project focuses on using .NET Core MVC, Authentication, SQL databases/Migration, and one-to-many/many-to-many design for databases.
 
 ## Installation Requirements
 
