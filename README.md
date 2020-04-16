@@ -17,28 +17,6 @@
 
 ---
 
-<details>
-  <summary>WHAT WE WORKED ON 03.24.20</summary>
-  
-  - Removed excess seeding to avoid foreign key constraint errors
-  - Spend a few hours to get the students that have/have not completed courses in a specific department to show on a department view
-  - Implemented authentication
-  - Spent a few hours attempting authorization, but commented out work (could not get functioning)
-  - Fix bug that prevent user from registering successfully
-  - Leet code problems, research into transitioning this project into React
-</details>
-
-<details>
-  <summary>WHAT WE WORKED ON 03.23.20</summary>
-  
-  - University Registrar initial set up linking courses and students with a many-to-many relationship
-  - Adding in Departments with a one-to-many relationship to students and courses
-  - Learning about data annotations to allow optional properties (e.g. when a student doesn't have a department yet)
-  - Adding additional features of IsComplete to courses
-  - Listing out courses a student is completing vs. has completed
-  - Learning about seeding databases, but still struggling with seeding sequentially (are they async?)
-</details>
-
 ## Description
 
 C#/.NET MVC website that allows students and administrators to keep records on courses and student enrollment. This application allows you to create students and courses, and adjust student enrollment in each course. The website will prompt you to register an account and log in to view students and courses. This project focuses on using .NET Core MVC, Authentication, SQL databases/Migration, and one-to-many/many-to-many design for databases.
@@ -48,7 +26,7 @@ C#/.NET MVC website that allows students and administrators to keep records on c
 - Clone the repository on Github
 - Open the terminal on your desktop
 - \$git clone "insert your cloned URL here"
-- Change directory to the UniversityRegistrar directory, within the UniversityRegistrar.Solution directory
+- Change directory to the UniversityRegistrar.Solution directory, within the root directory
 - \$dotnet restore
 - Recreate our database structure with migration:
   - \$dotnet ef migrations add Initial
@@ -81,21 +59,3 @@ C#/.NET MVC website that allows students and administrators to keep records on c
 ### License
 
 - This software is licensed under the MIT license.
-
-Authorization
-
-Administrator
--Add and remove departments
--Assign different Registrars to be responsible for different student levels??? (freshmen, sophomore...)
-
-Registrar
--Add or remove students to different courses
-
-Student
--"Wishlist" of the courses they want to be in
--Declare their major
--Add or remove
-
-Parking lot
--Student maximum in each course
--Different views of pages for different users (e.g. Student edit looks different to student vs registrar)
